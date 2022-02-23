@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+// VARIABLES
+
+$background-color: rgb(221, 121, 138);
+$box-shadow: 0 1rem 1rem black;
+$box-background: hsl(0, 0%, 100%);
+// END OF VARIABLES
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: $background-color;
+}
+
+// App section
+.App {
+  margin: 25rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: $box-background;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: $box-shadow;
+  justify-content: center;
+  max-width: 70rem;
+  width: 50rem;
+  min-height: 30rem;
+  height: auto;
+}
+.birthday--left {
+  font-weight: 100;
+  font-size: 3rem;
+  text-align: start;
+}
+
+.app-button {
+  background-color: $background-color;
+  border: none;
+  height: 4rem;
+  width: auto;
+  color: white;
+  font-size: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem black;
+  cursor: pointer;
+}
+
+// END OF App section
+
+// List Section
+
+.list--component {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.list--person {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+    color: gray;
+  }
+}
+.list--image {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+// End of List Section

@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #dd798a;
+}
+
+.App {
+  margin: 25rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  background-color: white;
+  margin: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 1rem 1rem black;
+          box-shadow: 0 1rem 1rem black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 70rem;
+  width: 50rem;
+  min-height: 30rem;
+  height: auto;
+}
+
+.birthday--left {
+  font-weight: 100;
+  font-size: 3rem;
+  text-align: start;
+}
+
+.app-button {
+  background-color: #dd798a;
+  border: none;
+  height: 4rem;
+  width: auto;
+  color: white;
+  font-size: 2.5rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 1rem black;
+          box-shadow: 0 0 1rem black;
+  cursor: pointer;
+}
+
+.list--component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.list--person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.list--person h3 {
+  font-size: 2rem;
+}
+
+.list--person p {
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.list--image {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
